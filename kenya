@@ -14,7 +14,7 @@ height: 600px;
 <body>
 <div id="map"></div>
 <script>
-var map=L.map('map',{scrollWheelZoom:false}).setView([0.7119444,37.9716666], 7);
+var map=L.map('map',{scrollWheelZoom:false}).setView([0.7119444,37.9616666], 7);
 
    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' 
